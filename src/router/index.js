@@ -34,6 +34,7 @@ const router = createRouter({
       component: () => import('../pages/Shop.vue'),
     },
   ],
+  linkActiveClass: 'btn-info',
 });
 
 export default router;

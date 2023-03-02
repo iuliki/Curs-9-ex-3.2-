@@ -1,11 +1,11 @@
 <template>
   <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/about">About</RouterLink>
-    <RouterLink to="/blog">Blog</RouterLink>
-    <RouterLink to="/get-a-quote">Get A Quote</RouterLink>
-    <RouterLink to="/media">Media</RouterLink>
-    <RouterLink to="/shop">Shop</RouterLink>
+    <RouterLink class="btn mx-2" to="/">Home</RouterLink>
+    <RouterLink class="btn mx-2" to="/about">About</RouterLink>
+    <RouterLink class="btn mx-2" to="/blog">Blog</RouterLink>
+    <RouterLink class="btn mx-2" to="/get-a-quote">Get A Quote</RouterLink>
+    <RouterLink class="btn mx-2" to="/media">Media</RouterLink>
+    <RouterLink class="btn mx-2" to="/shop">Shop</RouterLink>
   </nav>
 
   <RouterView />
@@ -14,3 +14,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
 </script>
+
+<style lang="scss">
+@import 'bootstrap/scss/bootstrap.scss';
+</style>
